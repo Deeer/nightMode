@@ -28,12 +28,21 @@
 也有使用plist文件进行对应版本的素材管理，在设定对应的模式状态后，让app去读取对应的plist文件，进而改变用户需求的模式。
 
 
-相关文章：
-	  http://www.jianshu.com/p/a38850421c56 用单例的方法实现夜间模式
-	  http://www.raywenderlich.com/108766/uiappearance-tutorial UIAppearance Tutorial: Getting Started
+相关文章： http://www.jianshu.com/p/a38850421c56 用单例的方法实现夜间模式
+	  
 	  
 
 2.使用第三方库实现 －－ DKNightVersion
 
+	简单的使用了下这个库，总的来说比方便，封装的也比较合理。
+	但是虽然方便，但是涉及runtime，用不好就可能出现意想不到的结果
 
+相关demo: https://github.com/Deeer/nightMode
+	
+
+总结：
+
+补充：
+	（主题切换方式）
+	http://www.raywenderlich.com/108766/uiappearance-tutorial UIAppearance Tutorial: Getting Started
 
