@@ -23,7 +23,7 @@
  
 ![oscCode](http://7xjg07.com1.z0.glb.clouddn.com/nightMode30B21D9F-1EC3-4C17-B74C-536902E6D3C0.png)
 
-他们使用AppDelegate来记录当前模式的改变，于此同时他们还为每种状态设置的对应的颜色。
+他们使用AppDelegate（与单例异曲同工）来记录当前模式的改变，与此同时他们还为每种状态设置的对应的颜色。
 
-在一些其他的方式
+
 
