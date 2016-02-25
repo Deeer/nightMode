@@ -1,0 +1,1 @@
+../../../DKNightVersion/Classes/Manual/UINavigationBar+Animation.h

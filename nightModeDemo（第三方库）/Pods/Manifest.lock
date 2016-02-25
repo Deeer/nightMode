@@ -1,0 +1,18 @@
+PODS:
+  - DKNightVersion (1.2):
+    - DKNightVersion/Core (= 1.2)
+    - DKNightVersion/CoreAnimation (= 1.2)
+    - DKNightVersion/UIKit (= 1.2)
+  - DKNightVersion/Core (1.2)
+  - DKNightVersion/CoreAnimation (1.2):
+    - DKNightVersion/Core
+  - DKNightVersion/UIKit (1.2):
+    - DKNightVersion/Core
+
+DEPENDENCIES:
+  - DKNightVersion (~> 1.2)
+
+SPEC CHECKSUMS:
+  DKNightVersion: 7c8cf41002c6dfa8db3ca71274bf1a9aaeaa4ff7
+
+COCOAPODS: 0.39.0

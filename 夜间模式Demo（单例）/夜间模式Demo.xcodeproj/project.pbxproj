@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FD021071C7E8D5A00772704 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD021061C7E8D5A00772704 /* main.m */; };
+		5FD0210A1C7E8D5A00772704 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD021091C7E8D5A00772704 /* AppDelegate.m */; };
+		5FD0210D1C7E8D5A00772704 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD0210C1C7E8D5A00772704 /* ViewController.m */; };
+		5FD021101C7E8D5A00772704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD0210E1C7E8D5A00772704 /* Main.storyboard */; };
+		5FD021121C7E8D5A00772704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD021111C7E8D5A00772704 /* Assets.xcassets */; };
+		5FD021151C7E8D5B00772704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD021131C7E8D5B00772704 /* LaunchScreen.storyboard */; };
+		5FD021201C7E8D5B00772704 /* ____DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD0211F1C7E8D5B00772704 /* ____DemoTests.m */; };
+		5FD0212B1C7E8D5B00772704 /* ____DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD0212A1C7E8D5B00772704 /* ____DemoUITests.m */; };
+		5FD0213A1C7E8E4A00772704 /* SingleDayAndNight.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD021391C7E8E4A00772704 /* SingleDayAndNight.m */; };
+		5FD0213D1C7EA0A200772704 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD0213C1C7EA0A200772704 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FD0211C1C7E8D5B00772704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FD020FA1C7E8D5A00772704 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FD021011C7E8D5A00772704;
+			remoteInfo = "夜间模式Demo";
+		};
+		5FD021271C7E8D5B00772704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FD020FA1C7E8D5A00772704 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FD021011C7E8D5A00772704;
+			remoteInfo = "夜间模式Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FD021021C7E8D5A00772704 /* 夜间模式Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "夜间模式Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD021061C7E8D5A00772704 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FD021081C7E8D5A00772704 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FD021091C7E8D5A00772704 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FD0210B1C7E8D5A00772704 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5FD0210C1C7E8D5A00772704 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FD0210F1C7E8D5A00772704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FD021111C7E8D5A00772704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FD021141C7E8D5B00772704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FD021161C7E8D5B00772704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FD0211B1C7E8D5B00772704 /* 夜间模式DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "夜间模式DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD0211F1C7E8D5B00772704 /* ____DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____DemoTests.m"; sourceTree = "<group>"; };
+		5FD021211C7E8D5B00772704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FD021261C7E8D5B00772704 /* 夜间模式DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "夜间模式DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD0212A1C7E8D5B00772704 /* ____DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____DemoUITests.m"; sourceTree = "<group>"; };
+		5FD0212C1C7E8D5B00772704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FD021381C7E8E4A00772704 /* SingleDayAndNight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleDayAndNight.h; sourceTree = "<group>"; };
+		5FD021391C7E8E4A00772704 /* SingleDayAndNight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleDayAndNight.m; sourceTree = "<group>"; };
+		5FD0213B1C7EA0A200772704 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5FD0213C1C7EA0A200772704 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FD020FF1C7E8D5A00772704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD021181C7E8D5B00772704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD021231C7E8D5B00772704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FD020F91C7E8D5A00772704 = {
+			isa = PBXGroup;
+			children = (
+				5FD021041C7E8D5A00772704 /* 夜间模式Demo */,
+				5FD0211E1C7E8D5B00772704 /* 夜间模式DemoTests */,
+				5FD021291C7E8D5B00772704 /* 夜间模式DemoUITests */,
+				5FD021031C7E8D5A00772704 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FD021031C7E8D5A00772704 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FD021021C7E8D5A00772704 /* 夜间模式Demo.app */,
+				5FD0211B1C7E8D5B00772704 /* 夜间模式DemoTests.xctest */,
+				5FD021261C7E8D5B00772704 /* 夜间模式DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FD021041C7E8D5A00772704 /* 夜间模式Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5FD021081C7E8D5A00772704 /* AppDelegate.h */,
+				5FD021091C7E8D5A00772704 /* AppDelegate.m */,
+				5FD0210B1C7E8D5A00772704 /* ViewController.h */,
+				5FD0210C1C7E8D5A00772704 /* ViewController.m */,
+				5FD0213B1C7EA0A200772704 /* SecondViewController.h */,
+				5FD0213C1C7EA0A200772704 /* SecondViewController.m */,
+				5FD021381C7E8E4A00772704 /* SingleDayAndNight.h */,
+				5FD021391C7E8E4A00772704 /* SingleDayAndNight.m */,
+				5FD0210E1C7E8D5A00772704 /* Main.storyboard */,
+				5FD021111C7E8D5A00772704 /* Assets.xcassets */,
+				5FD021131C7E8D5B00772704 /* LaunchScreen.storyboard */,
+				5FD021161C7E8D5B00772704 /* Info.plist */,
+				5FD021051C7E8D5A00772704 /* Supporting Files */,
+			);
+			path = "夜间模式Demo";
+			sourceTree = "<group>";
+		};
+		5FD021051C7E8D5A00772704 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FD021061C7E8D5A00772704 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FD0211E1C7E8D5B00772704 /* 夜间模式DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FD0211F1C7E8D5B00772704 /* ____DemoTests.m */,
+				5FD021211C7E8D5B00772704 /* Info.plist */,
+			);
+			path = "夜间模式DemoTests";
+			sourceTree = "<group>";
+		};
+		5FD021291C7E8D5B00772704 /* 夜间模式DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FD0212A1C7E8D5B00772704 /* ____DemoUITests.m */,
+				5FD0212C1C7E8D5B00772704 /* Info.plist */,
+			);
+			path = "夜间模式DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FD021011C7E8D5A00772704 /* 夜间模式Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD0212F1C7E8D5B00772704 /* Build configuration list for PBXNativeTarget "夜间模式Demo" */;
+			buildPhases = (
+				5FD020FE1C7E8D5A00772704 /* Sources */,
+				5FD020FF1C7E8D5A00772704 /* Frameworks */,
+				5FD021001C7E8D5A00772704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "夜间模式Demo";
+			productName = "夜间模式Demo";
+			productReference = 5FD021021C7E8D5A00772704 /* 夜间模式Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FD0211A1C7E8D5B00772704 /* 夜间模式DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD021321C7E8D5B00772704 /* Build configuration list for PBXNativeTarget "夜间模式DemoTests" */;
+			buildPhases = (
+				5FD021171C7E8D5B00772704 /* Sources */,
+				5FD021181C7E8D5B00772704 /* Frameworks */,
+				5FD021191C7E8D5B00772704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FD0211D1C7E8D5B00772704 /* PBXTargetDependency */,
+			);
+			name = "夜间模式DemoTests";
+			productName = "夜间模式DemoTests";
+			productReference = 5FD0211B1C7E8D5B00772704 /* 夜间模式DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FD021251C7E8D5B00772704 /* 夜间模式DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD021351C7E8D5B00772704 /* Build configuration list for PBXNativeTarget "夜间模式DemoUITests" */;
+			buildPhases = (
+				5FD021221C7E8D5B00772704 /* Sources */,
+				5FD021231C7E8D5B00772704 /* Frameworks */,
+				5FD021241C7E8D5B00772704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FD021281C7E8D5B00772704 /* PBXTargetDependency */,
+			);
+			name = "夜间模式DemoUITests";
+			productName = "夜间模式DemoUITests";
+			productReference = 5FD021261C7E8D5B00772704 /* 夜间模式DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FD020FA1C7E8D5A00772704 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kyle He";
+				TargetAttributes = {
+					5FD021011C7E8D5A00772704 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5FD0211A1C7E8D5B00772704 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5FD021011C7E8D5A00772704;
+					};
+					5FD021251C7E8D5B00772704 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5FD021011C7E8D5A00772704;
+					};
+				};
+			};
+			buildConfigurationList = 5FD020FD1C7E8D5A00772704 /* Build configuration list for PBXProject "夜间模式Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FD020F91C7E8D5A00772704;
+			productRefGroup = 5FD021031C7E8D5A00772704 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FD021011C7E8D5A00772704 /* 夜间模式Demo */,
+				5FD0211A1C7E8D5B00772704 /* 夜间模式DemoTests */,
+				5FD021251C7E8D5B00772704 /* 夜间模式DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FD021001C7E8D5A00772704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD021151C7E8D5B00772704 /* LaunchScreen.storyboard in Resources */,
+				5FD021121C7E8D5A00772704 /* Assets.xcassets in Resources */,
+				5FD021101C7E8D5A00772704 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD021191C7E8D5B00772704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD021241C7E8D5B00772704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FD020FE1C7E8D5A00772704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD0213D1C7EA0A200772704 /* SecondViewController.m in Sources */,
+				5FD0210D1C7E8D5A00772704 /* ViewController.m in Sources */,
+				5FD0210A1C7E8D5A00772704 /* AppDelegate.m in Sources */,
+				5FD021071C7E8D5A00772704 /* main.m in Sources */,
+				5FD0213A1C7E8E4A00772704 /* SingleDayAndNight.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD021171C7E8D5B00772704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD021201C7E8D5B00772704 /* ____DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD021221C7E8D5B00772704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD0212B1C7E8D5B00772704 /* ____DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FD0211D1C7E8D5B00772704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FD021011C7E8D5A00772704 /* 夜间模式Demo */;
+			targetProxy = 5FD0211C1C7E8D5B00772704 /* PBXContainerItemProxy */;
+		};
+		5FD021281C7E8D5B00772704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FD021011C7E8D5A00772704 /* 夜间模式Demo */;
+			targetProxy = 5FD021271C7E8D5B00772704 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FD0210E1C7E8D5A00772704 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD0210F1C7E8D5A00772704 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FD021131C7E8D5B00772704 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD021141C7E8D5B00772704 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FD0212D1C7E8D5B00772704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FD0212E1C7E8D5B00772704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FD021301C7E8D5B00772704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "夜间模式Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mintcode.----Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5FD021311C7E8D5B00772704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "夜间模式Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mintcode.----Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5FD021331C7E8D5B00772704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "夜间模式DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mintcode.----DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/夜间模式Demo.app/夜间模式Demo";
+			};
+			name = Debug;
+		};
+		5FD021341C7E8D5B00772704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "夜间模式DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mintcode.----DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/夜间模式Demo.app/夜间模式Demo";
+			};
+			name = Release;
+		};
+		5FD021361C7E8D5B00772704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "夜间模式DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mintcode.----DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "夜间模式Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5FD021371C7E8D5B00772704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "夜间模式DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mintcode.----DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "夜间模式Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FD020FD1C7E8D5A00772704 /* Build configuration list for PBXProject "夜间模式Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD0212D1C7E8D5B00772704 /* Debug */,
+				5FD0212E1C7E8D5B00772704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FD0212F1C7E8D5B00772704 /* Build configuration list for PBXNativeTarget "夜间模式Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD021301C7E8D5B00772704 /* Debug */,
+				5FD021311C7E8D5B00772704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FD021321C7E8D5B00772704 /* Build configuration list for PBXNativeTarget "夜间模式DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD021331C7E8D5B00772704 /* Debug */,
+				5FD021341C7E8D5B00772704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FD021351C7E8D5B00772704 /* Build configuration list for PBXNativeTarget "夜间模式DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD021361C7E8D5B00772704 /* Debug */,
+				5FD021371C7E8D5B00772704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FD020FA1C7E8D5A00772704 /* Project object */;
+}
