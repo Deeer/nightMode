@@ -11,7 +11,7 @@
 	      图标，因为他的图标本身明度不是很高，在切换夜间模式的候只需替换整体的颜色就可以达到夜间模式的效果。
 			        相比而言，不替换图片的效果会比较好
 	
-1.利用单例进行管理
+##1.利用单例进行管理
  	
  	1>首先使用单例或者全局对象（appDelegate）纪录当前的模式状态。
  	2>用户在切换模式后改变单例对象所纪录的状态值
@@ -32,7 +32,7 @@
 	  
 	  
 
-2.使用第三方库实现 －－ DKNightVersion
+##2.使用第三方库实现 －－ DKNightVersion
 
 	简单的使用了下这个库，总的来说比方便，封装的也比较合理。
 	但是虽然方便，但是涉及runtime，用不好就可能出现意想不到的结果
@@ -42,7 +42,5 @@
 
 总结：
 
-补充：
-	（主题切换方式）
-	http://www.raywenderlich.com/108766/uiappearance-tutorial UIAppearance Tutorial: Getting Started
+补充：（主题切换）http://www.raywenderlich.com/108766/uiappearance-tutorial UIAppearance Tutorial: Getting Started
 
