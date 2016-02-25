@@ -8,7 +8,7 @@
 
 
 首先明确一点：基于lunchr的夜间模式，很有可能需要替换图片素材，那么就需要准备两套素材进行替换。简书的夜间模式没有替换
-			        图标，因为他的图标本身明度不是很高，在切换夜间模式的候只需替换整体的颜色就可以达到夜间模式的效果。
+	      图标，因为他的图标本身明度不是很高，在切换夜间模式的候只需替换整体的颜色就可以达到夜间模式的效果。
 			        相比而言，不替换图片的效果会比较好
 	
 1.利用单例进行管理
@@ -24,6 +24,14 @@
 ![oscCode](http://7xjg07.com1.z0.glb.clouddn.com/nightMode30B21D9F-1EC3-4C17-B74C-536902E6D3C0.png)
 
 他们使用AppDelegate（与单例异曲同工）来记录当前模式的改变，与此同时他们还为每种状态设置的对应的颜色。
+
+也有使用plist文件进行对应版本的素材管理，在设定对应的模式状态后，让app去读取对应的plist文件，进而改变用户需求的模式。
+
+
+相关文章：http://www.jianshu.com/p/a38850421c56 用单例的方法实现夜间模式
+	  http://www.raywenderlich.com/108766/uiappearance-tutorial UIAppearance Tutorial: Getting Started
+
+2.使用第三方库实现 －－ DKNightVersion
 
 
 
