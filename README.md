@@ -35,8 +35,9 @@
 	
 **相关文章:** 
  		
-  http://www.jianshu.com/p/a38850421c56 用单例的方法实现夜间模式</b>
-  http://www.zhihu.com/question/35380146 知乎 iOS 客户端夜间模式是怎么实现的？
+ > http://www.jianshu.com/p/a38850421c56 用单例的方法实现夜间模式
+  
+ > http://www.zhihu.com/question/35380146 知乎 iOS 客户端夜间模式是怎么实现的？
 	    
 补充： （主题切换）http://www.raywenderlich.com/108766/uiappearance-tutorial UIAppearance Tutorial: Getting Started
 相关demo: https://github.com/Deeer/nightMode
