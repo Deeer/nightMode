@@ -31,13 +31,12 @@
 ##2.使用第三方库实现 －－ DKNightVersion
 
 	简单的使用了下这个库，总的来说比方便，封装的也比较合理。
-
-相关demo: https://github.com/Deeer/nightMode
+	但是涉及底层runtime，需要慎重使用
 	
-
-总结：
-
-相关文章：  http://www.jianshu.com/p/a38850421c56 用单例的方法实现夜间模式
-        http://www.zhihu.com/question/35380146 知乎 iOS 客户端夜间模式是怎么实现的？
+**相关文章:** 
+ 		
+  http://www.jianshu.com/p/a38850421c56 用单例的方法实现夜间模式
+  http://www.zhihu.com/question/35380146 知乎 iOS 客户端夜间模式是怎么实现的？
 	    
 补充： （主题切换）http://www.raywenderlich.com/108766/uiappearance-tutorial UIAppearance Tutorial: Getting Started
+相关demo: https://github.com/Deeer/nightMode
